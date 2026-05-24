@@ -7,18 +7,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node
+app/node_modules/
 
-# Editor directories and files
+# Build output
+app/dist/
+app/dist-ssr/
+
+# Local env/config
+*.local
+.env
+.env.*
+
+# Android / Gradle
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+app/android/local.properties
+
+# IDEs
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+*.iml
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Windows
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Keystores
+*.jks
+*.keystore
+
+# Temporary
+tmp/
+temp/
