@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FridaManager</string>
+    <string name="title_activity_main">FridaManager</string>
+    <string name="package_name">com.fridamanager.android</string>
+    <string name="custom_url_scheme">com.fridamanager.android</string>
+</resources>
