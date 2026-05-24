@@ -49,3 +49,7 @@ Thumbs.db
 # Temporary
 tmp/
 temp/
+
+# Magisk
+module/bin/*
+!module/bin/.gitkeep
