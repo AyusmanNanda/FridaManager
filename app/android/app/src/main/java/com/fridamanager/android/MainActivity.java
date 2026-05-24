@@ -8,8 +8,9 @@ import com.getcapacitor.BridgeActivity;
 public class MainActivity extends BridgeActivity {
     @Override
     public void onCreate(Bundle savedInstanceState){
+        registerPlugin(RootPlugin.class);
         super.onCreate(savedInstanceState);
 
-        registerPlugin(RootPlugin.class);
+
     }
 }
