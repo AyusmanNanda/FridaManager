@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/" width="72" alt="Frida Manager logo" />
+  <img src="docs/assets/icon.png" width="72" alt="Frida Manager logo" />
 </p>
 
 <h1 align="center">Frida Manager</h1>
